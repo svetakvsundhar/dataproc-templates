@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.4.0-beta](https://github.com/GoogleCloudPlatform/dataproc-templates/compare/v0.3.0-beta...v0.4.0-beta) (2023-06-21)
+
+
+### Features
+
+* 756 postgre sql to big query ([#805](https://github.com/GoogleCloudPlatform/dataproc-templates/issues/805)) ([121bf93](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/121bf9377af55e9ffed82471d2c0f813699fd4d1))
+* include logging ([ca1f9be](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/ca1f9bec7c3bc3c824428f4da90150178c283ceb))
+
+
+### Bug Fixes
+
+* add log_output ([09dc88a](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/09dc88a7e181ed103181b7640dd71140b2e8b211))
+* black formatting ([fcab888](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/fcab888a01ed569c7c1b5faaf416382262691da5))
+* ignored some tests in general template ([ae74321](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/ae7432177f2e29a070dc5fe2141fb41f58cbbf24))
+* implement get_common_args function ([6525dc5](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/6525dc508e568c969ccfeb7123bb40b39b642607))
+* implement get_env_vars in base script ([0734fb7](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/0734fb7fd82b269492657653eb598df40400eaa0))
+* integration test - change custom container image ([#810](https://github.com/GoogleCloudPlatform/dataproc-templates/issues/810)) ([8943508](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/894350808c9fcf5b5c80ade4c918f6dc69fc1368))
+* move max_parallelism from common_args ([1f88912](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/1f88912f5426bd56eaf013c3d7169ca0dec433ee))
+* remove common args from script ([fc125f2](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/fc125f2b20c953bb3fe16a5b96b7e2b548a494e3))
+* remove duplicate get_env_var ([73bad48](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/73bad482f500289be0b5b972a6ca87c138c9ff64))
+* removing version parameter while running with cluster ([d9faf34](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/d9faf341267eb0822ee28f937da614eb87f4b353))
+* small fixes in notebook ([155c5c8](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/155c5c8a5b7fd93b133f2269b6c9eab45cc64d65))
+* update spark to 3.3.2 ([60757dd](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/60757dd5d640b3ed83be666b1e1aba7100ca4a5b))
+* updated pom.xml to avoid commons-cli conflict in cluster mode ([40cc8f7](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/40cc8f7cc48e8d6e8418a915ee0aec3d806dae4c))
+
+
+### Documentation
+
+* added Oracle to Postgres notebook blogpost link to README files ([281bde5](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/281bde5819b0324e77991bdc0418c2130b332084))
+* removed PubSubLiteToGCS from README files ([a5d4c06](https://github.com/GoogleCloudPlatform/dataproc-templates/commit/a5d4c063f16bc433a88ade9c570d0792889856ef))
+
 ## [0.3.0-beta](https://github.com/GoogleCloudPlatform/dataproc-templates/compare/v0.2.0-beta...v0.3.0-beta) (2023-05-12)
 
 
